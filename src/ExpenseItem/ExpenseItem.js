@@ -1,15 +1,15 @@
-function App() {
+import "./ExpenseItem.css";
+
+function ExpenseItem() {
   return (
-    <div>
-      <h1> Todos </h1>
-      <div className="card">
-        <h2> Title </h2>
-        <div className="actions">
-          <button> Delete </button>
-        </div>
+    <div className="expense-item">
+      <div> 14 June 2021 </div>
+      <div className="expense-item__description">
+        <h2> Car Insurance </h2>
+        <div className="expense-item__price"> $294.4</div>
       </div>
     </div>
   );
 }
 
-export default App;
+export default ExpenseItem;
